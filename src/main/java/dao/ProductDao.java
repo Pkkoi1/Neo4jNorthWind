@@ -111,4 +111,11 @@ public class ProductDao {
             });
         }
     }
+//    LOAD CSV WITH HEADERS FROM "file:///music/Album.csv" AS row
+//    MERGE (album:Album { id: row.id})
+//    SET album.title = row.title, album.price = toFloat(row.price), album.yearOfRelease = toInteger(row.yearOfRelease)
+//return album
+//    Load file artist.csv
+//    id, name, birthDate, url
+
 }
